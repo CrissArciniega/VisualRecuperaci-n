@@ -11,4 +11,13 @@
         <maven.compiler.target>20</maven.compiler.target>
         <exec.mainClass>sourc.visualrecuperacion.VisualRecuperacion</exec.mainClass>
     </properties>
+
+    <!-- Agregar la dependencia de MySQL Connector/J -->
+    <dependencies>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <version>8.2.0</version>
+        </dependency>
+    </dependencies>
 </project>
